@@ -72,7 +72,10 @@ The Bicep version is much shorter, easier to read, and less error-prone.
 - Bicep transpiles (compiles) your code into ARM JSON templates.
 - Azure Resource Manager reads the template and deploys the resources.
 - No need to manually interact with ARM JSON.
-```
+  
+### The Lifecycle
+
+```bash
 # Convert Bicep to JSON (optional)
 bicep build main.bicep
 
@@ -87,7 +90,7 @@ az deployment group create \
 1. **Install Azure CLI:**  
    [Azure CLI Install Guide](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
    
-**Validatee:** Ensure you have the Azure CLI installed and logged in via az login.
+> Ensure you have the Azure CLI installed and logged in via `az login`.
 
 2. **Install Bicep CLI:**
    ```sh
@@ -98,7 +101,7 @@ az deployment group create \
    Use Visual Studio Code with the [Bicep Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep) for syntax highlighting and validation.
 
 4. **Create a Simple Bicep File**
-```
+```bicep
 // main.bicep
 resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name: 'demo-bicep-rg'
@@ -106,12 +109,16 @@ resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
 }
 ```
 5. **Deploy It**
-```
+```bash
 az deployment sub create \
   --location australiaeast \
   --template-file main.bicep
----
 ```
+## Summary
+
+* Azure Bicep is a simplified, declarative IaC language for Azure.
+* It improves on JSON ARM templates by being more readable and maintainable.
+* With Bicep, you write less code and get more clarity.
 
 **Next:**  
 In Lesson 2, we'll dive into Bicep language basics and write your first Bicep file.
