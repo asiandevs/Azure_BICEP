@@ -3,7 +3,7 @@
 ## What Is Bicep?
 
 **Bicep** is a domain-specific language (DSL) developed by Microsoft for declaratively deploying Azure resources. It is designed to simplify the process of defining infrastructure as code (IaC) for Azure. Bicep is open source, concise, and easier to read and write compared to traditional JSON-based ARM (Azure Resource Manager) JSON templates.
-Think of Bicep as the blueprint language for building in the Azure cloud—simple, structured, and readable.
+> Think of Bicep as the *blueprint language* for building in the Azure cloud—simple, structured, and readable.
 ## What Are ARM Templates?
 
 **ARM Templates** are JSON files that define the infrastructure and configuration for your Azure solution. They allow you to deploy, update, or delete all the resources for your solution in a single, coordinated operation.
