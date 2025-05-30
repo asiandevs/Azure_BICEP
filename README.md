@@ -32,6 +32,8 @@ This repository is organized into a series of step-by-step lessons. Start from t
 | 2      | Bicep Language Basics                              |
 | 3      | Deployment Modes, What-If, Comments, Parenting     |
 | 4      | Modules, Conditionals, Loops, Output Variables     |
+| 5      | Exporting and Importing Types in Bicep     |
+| 6      | Transpiling, Decompiling, and Reverse Engineering with Bicep     |
 | ...    | More lessons coming soon!                          |
 
 Each lesson contains clear explanations, practical examples, and hands-on exercises.
