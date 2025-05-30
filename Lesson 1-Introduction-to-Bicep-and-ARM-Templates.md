@@ -93,14 +93,18 @@ az deployment group create \
 > Ensure you have the Azure CLI installed and logged in via `az login`.
 
 2. **Install Bicep CLI:**
+  ```sh
+   az bicep install
+   ```
+3.  **To see options in Bicep CLI:**
    ```sh
    az bicep install
    ```
-
-3. **Start Authoring:**  
+   
+4. **Start Authoring:**  
    Use Visual Studio Code with the [Bicep Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep) for syntax highlighting and validation.
 
-4. **Create a Simple Bicep File**
+5. **Create a Simple Bicep File**
 ```bicep
 // main.bicep
 resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
@@ -119,6 +123,12 @@ az deployment sub create \
 * Azure Bicep is a simplified, declarative IaC language for Azure.
 * It improves on JSON ARM templates by being more readable and maintainable.
 * With Bicep, you write less code and get more clarity.
+
+**Bicep / ARM Template Reference for Functions:**  
+   [Document](https://learn.microsoft.com/en-us/azure/azureresource-manager/templates/template-functions) 
+   
+**Examples online:**  
+   [azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates) 
 
 **Next:**  
 In Lesson 2, we'll dive into Bicep language basics and write your first Bicep file.
