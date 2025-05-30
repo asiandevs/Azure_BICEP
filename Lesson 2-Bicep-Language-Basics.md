@@ -154,7 +154,7 @@ az deployment group create \
    The deployment will show the `storageAccountName` created.
 
 ---
-## 🛠 Try It Yourself
+##  Try It Yourself
 
 ### Step 1: Create the Bicep file
 
